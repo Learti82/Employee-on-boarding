@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "watch": "mix watch",
+    "dev": "mix"
+  },
+  "dependencies": {
+    "jquery": "^3.7.0"
+  },
+  "name": "employee-onboarding-platform",
+  "description": "Readme\r === Employee Onboarding Platform  ===\r Contributors: \r Requires PHP: v8.2\r Requires Node.js: v18.16.0\r URI:",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

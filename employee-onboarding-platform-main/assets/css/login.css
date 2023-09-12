@@ -1,0 +1,49 @@
+.wp_login_form{
+    border: 1px solid red;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    margin-left: 35%;
+    }
+    
+    .form_heading{
+    width: 380px;
+    height: 42px;
+    background-color: red;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    }
+    
+    form{
+    margin-left: 50px;
+    }
+    
+    label{
+    clear:both;
+    margin-right: 200px;
+    }
+    
+    .input{
+    height: 35px;
+    width: 270px;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    border-radius: 3px;
+    }
+    
+    #wp-submit{
+    height: 35px;
+    width: 90px;
+    border: 1px red;
+    background-color: red;
+    border-radius: 3px;
+    color: #fff;
+    }
+    
+    .error-msg{
+    color: red;
+    margin-left: 35%;
+    position: relative;
+    }

@@ -1,0 +1,86 @@
+
+
+/* Styles for Main */
+.text-holder {
+  color: rgba(36, 34, 32, 0.40);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 218.182% */
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  flex: 1 0 0;
+}
+
+
+
+
+/* Styles for the menu */
+.sidebar{
+  width: 256px;
+height: 1000px;
+flex-shrink: 0;
+  backdrop-filter: blur(80px);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.starlabs {
+  color: #242220;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+}
+
+
+.fb-responsive-header {
+  width: 75% !important;
+
+
+  .search-input {
+    width: 300px;
+    height: 35px;
+    background-color: #F5F5F5;
+    padding-left: 70px;
+  }
+
+  .search-btn {
+    margin-top: 7.5px;
+    margin-left: 40px;
+  }
+
+  @media (max-width: 730px) {
+    width: 90%;
+
+    .user h3 {
+      font-size: 12px !important;
+      margin-left: 17px;
+    }
+
+    .search-btn {
+      margin-left: 0;
+    }
+
+    .search-input {
+      width: 170px;
+      padding-left: 20px;
+    }
+
+    .search-input::placeholder {
+      font-size: 10px;
+    }
+  }
+}
+
